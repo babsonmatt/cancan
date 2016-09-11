@@ -256,9 +256,9 @@ function targetMatches (target, rule) {
 function attrsMatch (target, rule) {
 	// if testing against an allowed class
 	// return true immediately
-	if (isFunction(target)) {
-		return true;
-	}
+	// if (isFunction(target)) {
+	// 	return true;
+	// }
 
 	// if validator function is set
 	// return its result directly
